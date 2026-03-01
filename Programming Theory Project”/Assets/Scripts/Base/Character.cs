@@ -35,7 +35,7 @@ public abstract class Character : MonoBehaviour, IDamageable
 
     // Interface Implementation: The TakeDamage method is implemented as a virtual method in the Character class, allowing subclasses to override it if they need to provide specific behavior when taking damage (like playing a sound, triggering an animation, etc.). By providing a default implementation in the base class, we ensure that all characters will have a consistent way of handling damage while still allowing for customization in subclasses.
     // POLYMORPHISM: By marking the TakeDamage method as virtual, we allow subclasses to override this method to provide specific behavior when taking damage. This means that while all characters will have a default way of handling damage (reducing health and checking for death), individual character types can implement their own unique responses to taking damage (like playing different sounds, triggering different animations, or applying different effects). This use of polymorphism allows us to create a more dynamic and varied gameplay experience while still maintaining a consistent interface for damage handling across all character types.
-    
+
     public virtual void TakeDamage(float damage)
     {
         currentHealth -= damage; // Reduce current health by the damage taken
@@ -45,7 +45,7 @@ public abstract class Character : MonoBehaviour, IDamageable
         }
     }
 
-    
+
     protected abstract void Die(); // Abstract method to be implemented by subclasses for character death behavior
 
 

@@ -131,6 +131,7 @@ GameObject:
   - component: {fileID: 129122207}
   - component: {fileID: 129122206}
   - component: {fileID: 129122205}
+  - component: {fileID: 129122209}
   m_Layer: 0
   m_Name: Soldier
   m_TagString: Untagged
@@ -227,6 +228,22 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &129122209
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 129122204}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab47933bac13c7a1c9e10ec4a51d1b06, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  baseMaxHealth: 100
+  baseSpeed: 5
+  soldierHealth: 150
+  soldierSpeed: 7
 --- !u!1 &129593080
 GameObject:
   m_ObjectHideFlags: 0
@@ -379,7 +396,7 @@ GameObject:
   - component: {fileID: 822886623}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -398,6 +415,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   baseMaxHealth: 100
   baseSpeed: 5
+  playerHealth: 120
+  playerSpeed: 6
 --- !u!135 &822886624
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -761,6 +780,7 @@ GameObject:
   - component: {fileID: 1619180431}
   - component: {fileID: 1619180430}
   - component: {fileID: 1619180429}
+  - component: {fileID: 1619180433}
   m_Layer: 0
   m_Name: Zombie
   m_TagString: Untagged
@@ -857,6 +877,22 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1619180433
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1619180428}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c0c2426034feb626962f221992d442c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  baseMaxHealth: 100
+  baseSpeed: 5
+  zombieHealth: 80
+  zombieSpeed: 3
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

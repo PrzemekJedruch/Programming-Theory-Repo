@@ -4,7 +4,7 @@ public abstract class Enemy : Character
 {
   
     [Header("Enemy Stats")]
-    protected override float Speed => base.Speed * 2f;// Override the speed for enemies to be faster than the base character speed
+    protected override float Speed => base.Speed;// Override the speed for enemies to be faster than the base character speed
 
    private Transform player; // Reference to the player
    protected Transform Player => player; // Property to access the player transform
