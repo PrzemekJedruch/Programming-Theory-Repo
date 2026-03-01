@@ -1078,3 +1078,133 @@ Memory consumption went from 131.2 MB to 126.8 MB.
 Total: 13.444093 ms (FindLiveObjects: 0.990929 ms CreateObjectMapping: 0.709578 ms MarkObjects: 8.115443 ms  DeleteObjects: 3.626274 ms)
 
 Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 1721.677273 seconds.
+  path: Assets/DelthorGames
+  artifactKey: Guid(ae9f28b4b693661238c76a99d07ec517) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DelthorGames using Guid(ae9f28b4b693661238c76a99d07ec517) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5fd6e5f20c135d8752450cc8aecb0191') in 0.004985526 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.163066 seconds.
+  path: Assets/DelthorGames/MCX/Models/MCX.fbx
+  artifactKey: Guid(79a26283a692586468a639f351c97607) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DelthorGames/MCX/Models/MCX.fbx using Guid(79a26283a692586468a639f351c97607) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '91652da2725a97c860d2f4e6913aa321') in 1.633962566 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 236
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.511871 seconds.
+  path: Assets/DelthorGames/MCX/Prefabs
+  artifactKey: Guid(efa8f954d1aa0374faadfec452b7ab8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DelthorGames/MCX/Prefabs using Guid(efa8f954d1aa0374faadfec452b7ab8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '79efcf8043aa0612e039ecd90556aa33') in 0.000660747 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.220587 seconds.
+  path: Assets/DelthorGames/MCX/Prefabs/MCX.prefab
+  artifactKey: Guid(d6aaacc9a8182ac49b2a4e370c02d43c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DelthorGames/MCX/Prefabs/MCX.prefab using Guid(d6aaacc9a8182ac49b2a4e370c02d43c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '51727a215ad27811b50d1f77ea48cae0') in 0.04697755 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 236
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.536601 seconds.
+  path: Assets/DelthorGames/MCX/HowToUse.txt
+  artifactKey: Guid(80cfc9f5e8fbfa1458fdd439aeb9cfec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DelthorGames/MCX/HowToUse.txt using Guid(80cfc9f5e8fbfa1458fdd439aeb9cfec) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c27eca9079346d8461f5f3b71ce8a989') in 0.00140648 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.852609 seconds.
+  path: Assets/DelthorGames/MCX/Materials
+  artifactKey: Guid(2fc0c700bcd28ef408769554bd2ee0fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DelthorGames/MCX/Materials using Guid(2fc0c700bcd28ef408769554bd2ee0fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '432e64ecc0d3bc2446b05b687b59f0e1') in 0.000649762 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.308411 seconds.
+  path: Assets/AngeloMaN87/Prototype Map/Prefabs/PrototypeMap.prefab
+  artifactKey: Guid(fc5a676d2c90b3d4f8a22e369c35950d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AngeloMaN87/Prototype Map/Prefabs/PrototypeMap.prefab using Guid(fc5a676d2c90b3d4f8a22e369c35950d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9cfba25c6dc17abe1b54e5ca305da66a') in 0.542573253 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 38
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.068719 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scenes/08 - Improved Text Alignment.unity
+  artifactKey: Guid(5fe2257128d9401fad0790f581dc8a6f) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scenes/08 - Improved Text Alignment.unity using Guid(5fe2257128d9401fad0790f581dc8a6f) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter)Opening scene 'Assets/TextMesh Pro/Examples & Extras/Scenes/08 - Improved Text Alignment.unity additively'
+Loaded scene 'Assets/TextMesh Pro/Examples & Extras/Scenes/08 - Improved Text Alignment.unity'
+	Deserialize:            97.577 ms
+	Integration:            174.077 ms
+	Integration of assets:  1.810 ms
+	Thread Wait Time:       -0.166 ms
+	Total Operation Time:   273.298 ms
+ -> (artifact id: '7f0432f34f6ca5181d1c6d479c74c58e') in 0.314842799 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scenes/01-  Single Line TextMesh Pro.unity
+  artifactKey: Guid(2ac8cf212df6445e8aebbe3cb832e993) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scenes/01-  Single Line TextMesh Pro.unity using Guid(2ac8cf212df6445e8aebbe3cb832e993) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter)Opening scene 'Assets/TextMesh Pro/Examples & Extras/Scenes/01-  Single Line TextMesh Pro.unity additively'
+Loaded scene 'Assets/TextMesh Pro/Examples & Extras/Scenes/01-  Single Line TextMesh Pro.unity'
+	Deserialize:            38.311 ms
+	Integration:            13.337 ms
+	Integration of assets:  1.081 ms
+	Thread Wait Time:       -0.033 ms
+	Total Operation Time:   52.696 ms
+ -> (artifact id: '648b99f1c9719d2617f326b6d7c6e09c') in 0.068174269 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/DelthorGames/MCX/Textures/MCX_Mat_MetallicSmoothness.png
+  artifactKey: Guid(3803829b2360c0049a14a0ed583ef346) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DelthorGames/MCX/Textures/MCX_Mat_MetallicSmoothness.png using Guid(3803829b2360c0049a14a0ed583ef346) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c66169a21b5c15a6ffe5e7d63ce741f2') in 0.153962308 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Scenes/Main.unity
+  artifactKey: Guid(03ed3121c080d904885ea5bc4c0cfcf3) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Scenes/Main.unity using Guid(03ed3121c080d904885ea5bc4c0cfcf3) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter)Opening scene 'Assets/Scenes/Main.unity additively'
+Loaded scene 'Assets/Scenes/Main.unity'
+	Deserialize:            12.407 ms
+	Integration:            16.675 ms
+	Integration of assets:  0.026 ms
+	Thread Wait Time:       -0.006 ms
+	Total Operation Time:   29.102 ms
+ -> (artifact id: 'e7b0c6dba45a8acb3bbeda3e06f02605') in 0.061493238 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 66
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scenes/13 - Soft Hyphenation.unity
+  artifactKey: Guid(875684baf40f4d008ce806d03e2a81b2) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scenes/13 - Soft Hyphenation.unity using Guid(875684baf40f4d008ce806d03e2a81b2) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter)Opening scene 'Assets/TextMesh Pro/Examples & Extras/Scenes/13 - Soft Hyphenation.unity additively'
+Loaded scene 'Assets/TextMesh Pro/Examples & Extras/Scenes/13 - Soft Hyphenation.unity'
+	Deserialize:            39.020 ms
+	Integration:            5.636 ms
+	Integration of assets:  0.919 ms
+	Thread Wait Time:       -0.052 ms
+	Total Operation Time:   45.522 ms
+ -> (artifact id: 'ab0e10e4041edc36cfa05dd23733357b') in 0.054394749 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+Editor requested this worker to shutdown with reason: balancing worker count downwards
+AssetImportWorker is now disconnected from the server
+Process exiting
+
+SDL leaked 2 allocations
+Internal: Possible leak. All render target surfaces should be removed from IdMap when destructed using RenderTargetMap::Remove(RenderSurfaceBase* rs).

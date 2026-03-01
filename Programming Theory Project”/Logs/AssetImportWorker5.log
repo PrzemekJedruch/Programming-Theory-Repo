@@ -934,3 +934,64 @@ Memory consumption went from 128.3 MB to 123.8 MB.
 Total: 13.648335 ms (FindLiveObjects: 0.978098 ms CreateObjectMapping: 0.790754 ms MarkObjects: 8.524895 ms  DeleteObjects: 3.352436 ms)
 
 Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 2007.807570 seconds.
+  path: Assets/DelthorGames/MCX/Scenes
+  artifactKey: Guid(a3d8de89776a8b449ae9b47cc59e07d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DelthorGames/MCX/Scenes using Guid(a3d8de89776a8b449ae9b47cc59e07d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ab0d3b08af941fd67f9af516abb855f2') in 0.005963493 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 40.028685 seconds.
+  path: Assets/Scenes/Main.unity
+  artifactKey: Guid(03ed3121c080d904885ea5bc4c0cfcf3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/Main.unity using Guid(03ed3121c080d904885ea5bc4c0cfcf3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ce246147b0fbf26c94671110786167a1') in 0.380617045 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Prefabs/Soldier.prefab
+  artifactKey: Guid(69a017b8230141f18b87d40b2cd46c56) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Soldier.prefab using Guid(69a017b8230141f18b87d40b2cd46c56) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0e0fcddf51865fa4c14f88fb593fcf3f') in 0.256041768 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF.asset
+  artifactKey: Guid(5302535af1044152a457ed104f1f4b91) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF.asset using Guid(5302535af1044152a457ed104f1f4b91) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'e8795e531309bffbc12f0a8918992cb0') in 0.08819806 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/DelthorGames/MCX/Textures/MCX_Mat_Roughness.png
+  artifactKey: Guid(58580c42390318041a6c816d6abd9ff1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DelthorGames/MCX/Textures/MCX_Mat_Roughness.png using Guid(58580c42390318041a6c816d6abd9ff1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '222a56fb3c52b31bce39541bc9ab77e0') in 0.13247346 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/DelthorGames/MCX/Models/MCX.fbx
+  artifactKey: Guid(79a26283a692586468a639f351c97607) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DelthorGames/MCX/Models/MCX.fbx using Guid(79a26283a692586468a639f351c97607) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b8f46145f5645ab416a548a5cc9bc7b1') in 0.285595568 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 229
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/DelthorGames/MCX/Materials/MCX_Mat_Black.mat
+  artifactKey: Guid(066fb326d1b250247b4242afcbc5d71d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DelthorGames/MCX/Materials/MCX_Mat_Black.mat using Guid(066fb326d1b250247b4242afcbc5d71d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fe93c26df84b98a5208809a6602e8ccc') in 0.227936722 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+Editor requested this worker to shutdown with reason: balancing worker count downwards
+AssetImportWorker is now disconnected from the server
+Process exiting
+
+SDL leaked 2 allocations
