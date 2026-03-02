@@ -296,6 +296,73 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!4 &655044437 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2605644439770833878, guid: 4dbf1a9b896357ee08c64788b33f9971, type: 3}
+  m_PrefabInstance: {fileID: 4902606713435864134}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &870454772 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 64014155097207572, guid: 4dbf1a9b896357ee08c64788b33f9971, type: 3}
+  m_PrefabInstance: {fileID: 4902606713435864134}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &870454778
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 870454772}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 146273e1065228a55a94f78f4001ea1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mouseSensitivity: 200
+  cameraPivot: {fileID: 655044437}
+--- !u!54 &870454779
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 870454772}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 1
+  m_Constraints: 84
+  m_CollisionDetection: 1
+--- !u!114 &870454785
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 870454772}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 235c474247006776e9aa88a3015f96da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  baseMaxHealth: 100
+  baseSpeed: 5
+  playerHealth: 120
+  playerSpeed: 6
 --- !u!1 &2067293217
 GameObject:
   m_ObjectHideFlags: 0
@@ -430,7 +497,16 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 64014155097207572, guid: 4dbf1a9b896357ee08c64788b33f9971, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 870454779}
+    - targetCorrespondingSourceObject: {fileID: 64014155097207572, guid: 4dbf1a9b896357ee08c64788b33f9971, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 870454778}
+    - targetCorrespondingSourceObject: {fileID: 64014155097207572, guid: 4dbf1a9b896357ee08c64788b33f9971, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 870454785}
   m_SourcePrefab: {fileID: 100100000, guid: 4dbf1a9b896357ee08c64788b33f9971, type: 3}
 --- !u!1001 &6621440331865038814
 PrefabInstance:
